@@ -1,0 +1,417 @@
+
+/* ------- Resuseable ------- */
+
+section {
+    padding: 100px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #535c68;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 200%;
+    color: #686de0;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #686de0;
+}
+
+li {
+    list-style: none;
+}
+
+h4 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h5 {
+    display: inline-block;
+    padding-left: 20px;
+    color: #cecece;
+    float:right;
+    margin-top: 110px;
+}
+
+footer {
+    background-color: #e0dada;
+}
+
+/* ------- Header ------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/resources/images/Hero-backgroundunsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.nav-flex {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+    width: auto;
+    background-color: #fff;
+}
+
+.main-nav {
+    display: flex;
+    width: 100%;
+}
+
+.info-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.main-nav li {
+    font-size: 110%;
+    font-weight: 400;
+    color: #dff9fb;
+    border-bottom: 1px solid;
+}
+
+.hero-text-box {
+    margin-top: 27%;
+    width: auto;
+}
+
+.hero-text-box h1 {
+    color: #dff9fb;
+}
+
+/* ------ BUTTONS ------ */
+
+
+.btn,
+input[type=submit]{
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 150%;
+    color: #dff9fb;
+    padding: 5px;
+}
+
+
+.btn-full,
+input[type=submit] {
+    margin-right: 10px;
+    border-width: 2px;
+    background-color: #535c68;
+    
+}
+
+.btn-empty {
+    margin-right: 10px;
+}
+
+
+/* ------- Info ------- */
+
+
+
+.info-information {
+    padding: 40px;
+    text-align: center;
+    font-size: 110%;
+}
+
+.info-plans {
+    padding: 20px 100px;
+    margin: 0 auto;
+}
+
+.goal-icon {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    padding-bottom: 15px
+}
+
+
+
+/* ------- How it works ------- */
+
+
+.how-it-works {
+    background-color: #e0e7ec; 
+}
+
+.how-it-works-steps {
+    display: block;
+    float: right;
+}
+
+.how-it-works-steps li {
+    margin: 40px;
+}
+
+.how-it-works-steps:first-child {
+    padding-top: 100px;
+}
+
+.how-it-works-steps ol li {
+    color: #686de0;
+    list-style: none;
+}
+
+.how-it-works-steps ol li span {
+    font-size: 200%;
+    border-radius: 70%;
+    border: solid 2px #535c68;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+    display: inline-block;
+    
+}
+
+.iphone {
+    width: 40%;
+    height: auto;
+    padding: 50px 0;
+    float: left;
+    margin-left: 30%;
+}
+
+.android {
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+}
+
+.itunes {
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+    margin-right: 80px;
+    height: 60px;
+    padding-left: 20px;
+} 
+
+/* ------- Insipiration flex ------- */
+
+
+.flex-inspiration {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.group-photo {
+    display: flex;
+}
+
+.group-photo img {
+    display: flex;
+    width: 100%;
+}
+
+.inspiration {
+    padding-bottom: 0;
+}
+
+/* ------- Cities ------- */
+
+.cities-info {
+    width: 100%;
+    display: inline-block;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.cities-photo {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.city-icon {
+    font-size: 150%;
+}
+
+/* ------- Customer Feedback ------- */
+
+.customer-feed-back {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/resources/images/Customer-background-jannis-brandt.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-attachment: fixed;
+}
+
+.customer-blirb {
+    font-size: 100%;
+    color: #cecece;
+    padding:  50px;
+}
+
+.customer-logo {
+    border-radius: 70%;
+    display: inline-block;
+    padding-top: 20px;   
+}
+
+/* ------- Sign up ------- */
+
+.sign-up {
+    background-color: #e0e7ec;
+
+}
+
+.plans-container {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.tier-1 {
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.tier-2 {
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.tier-3 {
+    padding:10px;
+    text-align: center;
+}
+
+plans-container ul, li {
+    margin: 20px;
+}
+
+.sign-up-check {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.tier-1 ul li:first-child {
+    font-size: 150%;
+    text-align: center;
+    color: #686de0;
+}
+
+.tier-1 ul li:nth-child(2) {
+    text-align: center;
+}
+
+.tier-1 ul li:last-child {
+    font-size: 150%;
+    text-align: center;
+}
+
+/* ------- Sign up ------- */
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+input[type=text]
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+/* ------- Footer ------- */
+
+
+.flex-footer {
+    display: flex;
+}
+
+.about-info {
+    display: flex;
+    width: 100%;
+}
+
+.twitter {
+    margin-left: auto;
+}
+
+.creation {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.media {
+    font-size: 125%;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-instagram:hover {
+    color: #e95950
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998
+}
