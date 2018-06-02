@@ -1,10 +1,10 @@
 # Get-fit-fast
 
-Work in progress i moved on for.
+Work in progress i moved on from.
 
-Things to add
+Things to add to complete.
 
 Proper links
-working form
-animations
-link checkpoints
+Working form
+Animations
+Link checkpoints
